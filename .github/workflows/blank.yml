@@ -1,7 +1,7 @@
 name: Ping user
 
 on:
-  pull_request_target:
+  issues:
     types: [opened]
 
 jobs:
