@@ -54,6 +54,7 @@ body:
   - type: textarea
     attributes:
       label: Additional comments
+      placeholder: For example: This package is a dependency for ...
 
   - type: checkboxes
     id: Duplicates 
