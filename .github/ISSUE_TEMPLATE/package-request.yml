@@ -41,10 +41,7 @@ body:
     attributes:
       label: Package availability
       description: "From where the package can be downloaded. _Note: You may add mutliple sources as a list, if available._"
-      placeholder: |
-
-        1. PyPI
-        2. GitHub releases
+      placeholder: 1. PyPI 2. GitHub releases
     validations:
       required: true
 
