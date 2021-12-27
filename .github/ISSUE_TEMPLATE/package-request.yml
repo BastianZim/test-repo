@@ -19,13 +19,7 @@ body:
         - [Grayskull](https://github.com/conda-incubator/grayskull) - to automatically generate a recipe for packages on PyPI
         - [The conda r skeleton helpers](https://github.com/bgruening/conda_r_skeleton_helper) - to automatically generate a recipe for packages on CRAN
 
-- _Package name_:
-- _Version (If a specific one is required)_:
-- _URL_:
-- _Available via (GitHub Releases, PyPI, etc.)_:
-- _Additional comments_:
-
-  - type: input
+- type: input
     attributes:
       label: Package name
       description: The name of the package you would like to request.
