@@ -1,6 +1,6 @@
 name: Package request
 description: Request a package you would like to have added to the conda-forge channel
-title: Package request
+title: "Package request: "
 labels:
   - Package request
 body:
