@@ -53,7 +53,10 @@ body:
     id: verification
     attributes:
       label: The package isn't available on conda-forge yet.
-      description: Verify that the package does not already exist (Also check with _hyphens_ vs. _underscores_ and added identifiers like `python-` and `r-`). All packages can be searched on the conda-forge [website](https://conda-forge.org/feedstock-outputs/).
+      description: |
+        Verify that the package does not already exist.
+        Please also check with _hyphens_ vs. _underscores_ and added identifiers like `python-` and `r-`.
+        _Note:_ All currently available packages can be found on the conda-forge [website](https://conda-forge.org/feedstock-outputs/).
       options:
         - label: The package isn't available on conda-forge yet.
           required: true
