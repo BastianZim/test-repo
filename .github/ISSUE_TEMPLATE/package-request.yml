@@ -32,15 +32,18 @@ body:
       description: The version of the package you would like to request, if a specific one is required.
       value: Newest
 
-  - type: input
+  - type: textarea
     attributes:
       label: Package website
-      description: The website or repository of the package you would like to request.
+      description: |
+        The website or repository of the package you would like to request.
+      placeholder: 1. Website 2. GitHub repository
 
   - type: textarea
     attributes:
       label: Package availability
-      description: "From where the package can be downloaded. _Note: You may add mutliple sources as a list, if available._"
+      description: |
+        From where the package can be downloaded.
       placeholder: 1. PyPI 2. GitHub releases
     validations:
       required: true
@@ -52,7 +55,7 @@ body:
   - type: checkboxes
     id: Duplicates 
     attributes:
-      label: The package isn't available on conda-forge yet.
+      label: Not yet available
       description: |
         Verify that the package does not already exist.
         Please also check with _hyphens_ vs. _underscores_ and added identifiers like `python-` and `r-`.
@@ -64,7 +67,7 @@ body:
   - type: checkboxes
     id: previous
     attributes:
-      label: No previous issue exists and no PR has been opene no options
+      label: No previous issues and PRs
       description: Check that no previous [issue](https://github.com/conda-forge/staged-recipes/issues) exists and that no [PR](https://github.com/conda-forge/staged-recipes/pulls) is currently open.
       options:
         - label: No previous issue exists and no PR has been opened options
