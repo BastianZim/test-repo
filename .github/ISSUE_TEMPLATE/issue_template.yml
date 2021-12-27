@@ -10,7 +10,8 @@ body:
         If you would like to get the attention of the conda-forge team, please do one of the following:
 
         1. If the issue is related to staged-recipes infrastructure, ping the `@conda-forge/staged-recipes` team in this issue.
-          If you're not a member of the conda-forge GitHub organization, this will be disabled by GitHub, and you can ask the bot to ping the team for you. Just enter the following command in a comment: `@conda-forge-admin, please ping conda-forge/staged-recipes`
+          If you're not a member of the conda-forge GitHub organization, this will be disabled by GitHub, and you can ask the bot to ping the team for you. 
+          Just enter the following command in a comment: `@conda-forge-admin, please ping conda-forge/staged-recipes`
 
         2. If the issue is related to conda-forge, please open an issue in the [general conda-forge repo](https://github.com/conda-forge/conda-forge.github.io).
 
