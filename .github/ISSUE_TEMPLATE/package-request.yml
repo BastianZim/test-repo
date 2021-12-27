@@ -50,7 +50,7 @@ body:
       label: Additional comments
 
   - type: checkboxes
-    id: verification
+    id: Duplicates 
     attributes:
       label: The package isn't available on conda-forge yet.
       description: |
@@ -67,6 +67,6 @@ body:
       label: No previous issue exists and no PR has been opened.
       description: Check that no previous [issue](https://github.com/conda-forge/staged-recipes/issues) exists and that no [PR](https://github.com/conda-forge/staged-recipes/pulls) is currently open.
       options:
-        - label: No previous issue exists and no PR has been opened.
+        - label: No previous issue exists and no PR has been opened options
           required: true
 
