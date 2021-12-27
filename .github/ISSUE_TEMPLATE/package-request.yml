@@ -1,0 +1,75 @@
+name: Package request
+description: Request a package you would like to have added to the conda-forge channel
+title: Package request
+labels:
+  - Package request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        As we are all volunteers here, please note though that we cannot always accommodate your request but encourage you to try to submit the package yourself.
+
+        Some information on how to get started with adding a package can be found in the conda-forge docs, linked below.
+        Please also note, that you do not need to be the original maintainer of the package to add it to conda forge.
+        Finally, don't hesitate to create an initial PR and we'll be happy to help you from there.
+
+        # Some links to get started
+        - [Currently available conda-forge packages](https://conda-forge.org/feedstock-outputs/)
+        - [The conda-forge docs](https://conda-forge.org/docs/maintainer/adding_pkgs.html#the-staging-process)
+        - [Grayskull](https://github.com/conda-incubator/grayskull) - to automatically generate a recipe for packages on PyPI
+        - [The conda r skeleton helpers](https://github.com/bgruening/conda_r_skeleton_helper) - to automatically generate a recipe for packages on CRAN
+
+# The requested package
+
+- _Package name_:
+- _Version (If a specific one is required)_:
+- _URL_:
+- _Available via (GitHub Releases, PyPI, etc.)_:
+- _Additional comments_:
+
+  - type: input
+    attributes:
+      label: Package name
+      description: The name of the package you would like to request.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Package version
+      description: The version of the package you would like to request.
+      value: Newest
+
+  - type: input
+    attributes:
+      label: Package website
+      description: The website or repository of the package you would like to request.
+
+  - type: textarea
+    attributes:
+      label: Package availability
+      description: From where the package can be downloaded. _Note: You may add mutliple sources if available._
+      Placeholder: GitHub Releases, PyPI, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional comments.
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: The package isn't available on conda-forge yet.
+      description: Verify that the package does not already exist (Also check with _hyphens_ vs. _underscores_ and added identifiers like `python-` and `r-`). All packages can be searched on the conda-forge [website](https://conda-forge.org/feedstock-outputs/).
+      options:
+          required: true
+
+  - type: checkboxes
+    id: previous
+    attributes:
+      label: No previous issue exists and no PR has been opened.
+      description: Check that no previous [issue](https://github.com/conda-forge/staged-recipes/issues) exists and that no [PR](https://github.com/conda-forge/staged-recipes/pulls) is currently open.
+      options:
+          required: true
+
