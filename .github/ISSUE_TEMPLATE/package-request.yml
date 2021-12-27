@@ -58,7 +58,7 @@ body:
   - type: checkboxes
     id: Duplicates 
     attributes:
-      label: Not yet available
+      label: Package is not available under a different name
       description: |
         Verify that the package does not already exist.
         Please also check with _hyphens_ vs. _underscores_ and added identifiers like `python-` and `r-`.
@@ -70,7 +70,7 @@ body:
   - type: checkboxes
     id: previous
     attributes:
-      label: No previous issues and PRs
+      label: No previous issues or open PRs
       description: Check that no previous [issue](https://github.com/conda-forge/staged-recipes/issues) exists and that no [PR](https://github.com/conda-forge/staged-recipes/pulls) is currently open.
       options:
         - label: No previous issue exists and no PR has been opened options
