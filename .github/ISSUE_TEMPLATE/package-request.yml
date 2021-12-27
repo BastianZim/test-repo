@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Note:
+        ### Note:
         As we are all volunteers here, please note that we cannot always accommodate your request but encourage you to try to submit the package yourself.
 
         Some information on how to get started with adding a package can be found in the conda-forge docs, linked below.
@@ -19,6 +19,8 @@ body:
         - [The conda-forge docs](https://conda-forge.org/docs/maintainer/adding_pkgs.html#the-staging-process)
         - [Grayskull](https://github.com/conda-incubator/grayskull) - to automatically generate a recipe for packages on PyPI
         - [The conda r skeleton helpers](https://github.com/bgruening/conda_r_skeleton_helper) - to automatically generate a recipe for packages on CRAN
+
+        ---
 
   - type: input
     attributes:
