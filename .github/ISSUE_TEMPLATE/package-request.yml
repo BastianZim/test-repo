@@ -64,7 +64,7 @@ body:
   - type: checkboxes
     id: previous
     attributes:
-      label: No previous issue exists and no PR has been opened.
+      label: No previous issue exists and no PR has been opene no options
       description: Check that no previous [issue](https://github.com/conda-forge/staged-recipes/issues) exists and that no [PR](https://github.com/conda-forge/staged-recipes/pulls) is currently open.
       options:
         - label: No previous issue exists and no PR has been opened options
