@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        _As we are all volunteers here, please note that we cannot always accommodate your request but encourage you to try to submit the package yourself._
+        _As we are all volunteers here, please note that we cannot always accommodate your request but therefore encourage you to try to submit the package yourself._
 
         _Some information on how to get started with adding a package can be found in the conda-forge docs, linked below._
         _Please also note, that you do not need to be the original maintainer of the package to add it to conda forge._
