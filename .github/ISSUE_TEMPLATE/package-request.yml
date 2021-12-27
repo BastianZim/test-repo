@@ -56,7 +56,7 @@ body:
       description: Verify that the package does not already exist (Also check with _hyphens_ vs. _underscores_ and added identifiers like `python-` and `r-`). All packages can be searched on the conda-forge [website](https://conda-forge.org/feedstock-outputs/).
       options:
         - label: The package isn't available on conda-forge yet.
-        - required: true
+          required: true
 
   - type: checkboxes
     id: previous
@@ -65,5 +65,5 @@ body:
       description: Check that no previous [issue](https://github.com/conda-forge/staged-recipes/issues) exists and that no [PR](https://github.com/conda-forge/staged-recipes/pulls) is currently open.
       options:
         - label: No previous issue exists and no PR has been opened.
-        - required: true
+          required: true
 
