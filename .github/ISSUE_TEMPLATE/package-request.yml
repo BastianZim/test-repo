@@ -7,12 +7,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### _Note_
-        As we are all volunteers here, please note that we cannot always accommodate your request but encourage you to try to submit the package yourself.
+        _As we are all volunteers here, please note that we cannot always accommodate your request but encourage you to try to submit the package yourself.
 
         Some information on how to get started with adding a package can be found in the conda-forge docs, linked below.
         Please also note, that you do not need to be the original maintainer of the package to add it to conda forge.
-        Finally, don't hesitate to create an initial PR and our review teams will be happy to help you from there.
+        Finally, don't hesitate to create an initial PR and our review teams will be happy to help you from there._
 
         ### Some links to get started
         - [Currently available conda-forge packages](https://conda-forge.org/feedstock-outputs/)
