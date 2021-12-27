@@ -19,6 +19,8 @@ body:
         - [The conda r skeleton helpers](https://github.com/bgruening/conda_r_skeleton_helper) - to automatically generate a recipe for packages on CRAN
 
         ---
+        
+        If none of these options are helpful, please fill out the form below.
 
   - type: input
     attributes:
