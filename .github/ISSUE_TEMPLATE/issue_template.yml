@@ -16,5 +16,3 @@ body:
 
   - type: textarea
     id: comment
-    attributes:
-      label: Comment
