@@ -40,7 +40,7 @@ body:
   - type: textarea
     attributes:
       label: Package availability
-      description: From where the package can be downloaded. _Note: You may add mutliple sources if available._
+      description: "From where the package can be downloaded. _Note: You may add mutliple sources if available._"
       Placeholder: GitHub Releases, PyPI, etc.
     validations:
       required: true
