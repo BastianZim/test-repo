@@ -60,8 +60,7 @@ body:
     attributes:
       label: Package is not available under a different name
       description: |
-        Verify that the package does not already exist.
-        Please also check with _hyphens_ vs. _underscores_ and added identifiers like `python-` and `r-`.
+        Please verify that the package does not already exist. This should also be checked with _hyphens_ vs. _underscores_ and added identifiers like `python-` and `r-`.
         _Note:_ All currently available packages can be found on the conda-forge [website](https://conda-forge.org/feedstock-outputs/).
       options:
         - label: The package isn't available on conda-forge yet.
