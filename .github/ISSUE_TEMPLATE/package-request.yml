@@ -29,7 +29,7 @@ body:
   - type: input
     attributes:
       label: Package version
-      description: The version of the package you would like to request.
+      description: The version of the package you would like to request, if a specific one is required.
       value: Newest
 
   - type: input
